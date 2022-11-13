@@ -21,7 +21,7 @@ async def on_ready():
 
 
 @bot.command()
-async def gozei(ctx, limit: int = None):
+async def clear(ctx, limit: int = None):
     passed = 0
     failed = 0
     async for msg in ctx.message.channel.history(limit=limit):
