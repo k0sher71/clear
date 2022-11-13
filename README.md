@@ -17,7 +17,7 @@ async def clear(ctx, limit: int = None):
 - If you want to use a prefix so that only the message with it makes the cleaner work, such as ".clear" or something else, set your prefix on line 2 in "prefix".
 
 ```
-prefix = ""
+prefix = "!"
 ```
 
 ## For use
